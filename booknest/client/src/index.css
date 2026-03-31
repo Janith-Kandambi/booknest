@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 222.2 47.4% 11.2%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 47.4% 11.2%;
+    --primary: 223 47% 11%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 24 100% 58%;
+    --accent-foreground: 0 0% 100%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.9rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Manrope', sans-serif;
+    background-image:
+      radial-gradient(circle at 10% 5%, rgba(249, 115, 22, 0.1), transparent 24%),
+      radial-gradient(circle at 90% 15%, rgba(251, 191, 36, 0.1), transparent 20%),
+      linear-gradient(180deg, rgba(255, 255, 255, 0.7), rgba(248, 250, 252, 0.95));
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    background: rgba(249, 115, 22, 0.22);
+  }
+}
+
+@layer components {
+  .glass-surface {
+    @apply border border-white/60 bg-white/80 backdrop-blur-xl;
+  }
+
+  .section-shell {
+    @apply rounded-2xl border border-white/70 bg-white/85 shadow-[0_10px_45px_-20px_rgba(15,23,42,0.35)];
+  }
+}
