@@ -13,6 +13,16 @@ This repo is deployment-ready for a **split architecture**:
 - Backend: Node + Express + Mongoose (`@booknest/server`)
 - Database: MongoDB Atlas
 
+# Output
+<img width="1432" height="776" alt="image" src="https://github.com/user-attachments/assets/f65f8cfe-2a32-45d3-a8b5-20477ca8a5ff" />
+<img width="1426" height="469" alt="image" src="https://github.com/user-attachments/assets/4e3e0e06-673b-42cb-8709-8db4afef4fdc" />
+<img width="1417" height="776" alt="image" src="https://github.com/user-attachments/assets/9befa4db-6b26-406a-acf1-f2353235e62e" />
+<img width="1417" height="731" alt="image" src="https://github.com/user-attachments/assets/f6445892-9e73-4222-96ff-903132d51805" />
+<img width="1430" height="772" alt="image" src="https://github.com/user-attachments/assets/ba26e385-293f-4c27-b24a-efe890e33a60" />
+<img width="1420" height="780" alt="image" src="https://github.com/user-attachments/assets/bc578021-459b-4264-aa8c-a4638ecbbbc2" />
+
+
+
 ## Monorepo Packages
 
 - `@booknest/client`
